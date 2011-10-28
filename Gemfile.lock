@@ -2,7 +2,9 @@ GEM
   remote: http://rubygems.org/
   specs:
     directory_watcher (1.4.1)
+    haml (3.1.3)
     redis (2.2.2)
+    sass (3.1.10)
     slop (2.1.0)
     stasis (0.1.12)
       directory_watcher (~> 1.4.1)
@@ -17,4 +19,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  stasis (= 0.1.12)
+  haml
+  sass
+  stasis
