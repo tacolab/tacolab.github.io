@@ -1,0 +1,32 @@
+// normal: 400, semi-bold: 600, bold: 700
+
+body {
+  padding-top: 100px;
+}
+
+.logo {
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+
+h1 {
+  font-size: 54px;
+  line-height: 54px;
+  margin-bottom: 18px;
+}
+
+h3 {
+  line-height: 27px
+}
+
+section {
+  margin-bottom: 18px;
+}
+
+.email {
+  unicode-bidi: bidi-override; direction: rtl;
+}
