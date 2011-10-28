@@ -1,1 +1,2 @@
-scp -r site tacolab@tacolab.com:web/alum/site
+staticmatic build .
+rsync -arvuze ssh site/ tacolab@tacolab.com:web/alum/site/ 
