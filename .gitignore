@@ -1,2 +1,4 @@
 public
 .sass-cache
+site/**/*.css
+site/**.html
