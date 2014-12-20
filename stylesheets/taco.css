@@ -1,0 +1,50 @@
+/* line 3 */
+body {
+  padding-top: 100px;
+  color: black;
+}
+
+/* line 8 */
+.logo {
+  text-align: left;
+}
+
+/* line 12 */
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  margin-bottom: 9px;
+  color: black;
+}
+
+/* line 18 */
+h1 {
+  font-size: 54px;
+  line-height: 54px;
+  margin-bottom: 18px;
+}
+
+/* line 24 */
+h3 {
+  line-height: 27px;
+}
+
+/* line 28 */
+section {
+  margin-bottom: 18px;
+}
+
+/* line 32 */
+.email {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+/* line 47 */
+.notfound img {
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.0, M12=-1, M21=1, M22=0.0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.0, M12=-1, M21=1, M22=0.0)";
+  zoom: 1;
+}
